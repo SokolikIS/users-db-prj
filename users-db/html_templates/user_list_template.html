@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<meta charset="utf-8">
+
+	<link rel="stylesheet" href="css/main.css" type="text/css">
+
+	<title>JEE Laboratory - Users DB</title>
+</head>
+<body>
+
+	<div class="dataFrame largeFrame">
+		<h1>Users DB - Список пользователей</h1>
+
+		<table border="1">
+			<tr>
+				<th>ID</th>
+				<th>Имя Пользователя</th>
+				<th>Пароль</th>
+				<th>Действия</th>
+			</tr>
+			<tr>
+				<td>1</td>
+				<td>admin</td>
+				<td>admin</td>
+				<td class="actionsColl">
+					<a href="#">Редактировать</a> 
+					&nbsp;&nbsp;
+					<a href="#">Удалить</a>
+				</td>
+			</tr>
+			<tr>
+				<td>2</td>
+				<td>user</td>
+				<td>123</td>
+				<td class="actionsColl">
+					<a href="#">Редактировать</a> 
+					&nbsp;&nbsp;
+					<a href="#">Удалить</a>
+				</td>
+			</tr>
+			<tr>
+				<td>3</td>
+				<td>moderator</td>
+				<td>qwert</td>
+				<td class="actionsColl">
+					<a href="#">Редактировать</a> 
+					&nbsp;&nbsp;
+					<a href="#">Удалить</a>
+				</td>
+			</tr>
+		</table>
+
+		<br />
+		<hr />
+		<br />
+
+		<div class="dataFrame shortFrame">
+			<h1>Добавить пользователя</h1>
+
+			<form>
+				Имя пользователя:
+				<br />
+				<input type="text" id="txt_login" name="txt_login" /> 
+				<span class="errorText">Введите имя пользователя!</span>
+
+				<br />
+				<br />
+
+				Пароль:
+				<br />
+				<input type="text" id="txt_tassword" name="txt_tassword" />
+				<span class="errorText">Введите пароль!</span>
+
+				<br />
+				<br />
+				<input type="submit" name="login" value="Сохранить" />
+			</form>
+		</div>
+	</div>
+
+</body>
+</html>
