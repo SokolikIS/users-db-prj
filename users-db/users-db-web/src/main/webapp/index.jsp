@@ -19,6 +19,9 @@
 	</title>
 </head>
 <body>
+
+	<h1>Hello</h1>
+
 	<fmt:message key="indexPage.info" bundle="${msgs}" />
 </body>
 </html>
